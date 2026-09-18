@@ -18,7 +18,6 @@ int main() {
     
     total = quantity * price;
     
-    printf("Your Total for %d %s ",quantity,item);
-    printf("is %c %.2f",currency,total);
+    printf("Your Total for %d %s/s is %c%.2f",quantity,item,currency,total);
     return 0;
 }
